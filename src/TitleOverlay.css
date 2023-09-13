@@ -1,0 +1,17 @@
+.title-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('title.gif'); /* Replace with your image path */
+    background-size: cover;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    z-index: 9999;
+  }
+  
+  .title-overlay.fade-out {
+    opacity: 0;
+  }
+  
